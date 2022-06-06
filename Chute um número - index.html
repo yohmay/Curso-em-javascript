@@ -3,7 +3,6 @@
 var nome =prompt("Digite seu nome");
     alert("Seja Bem Vindo Sr(a)" + nome);
     alert("Pense em um número de 1 a 10 e veja se acerta o valor gerado");
-
 var chute = parseInt(prompt("Já pensou. Qual você acha que é? (1 a 10)"));
 
 function maioroumenor(numeroPensado){
@@ -15,12 +14,12 @@ if (chute>numeroPensado){
 }    
 function numeroPensado (){
     var numeroPensado = 7;
-    console.log(numeroPensado);
+        console.log(numeroPensado);
 if(chute ===numeroPensado) {
     document.write("Parabéns, você acertou!");
 } else {
     document.write("Você errou!"+"<br>");
-    maioroumenor(numeroPensado);
+        maioroumenor(numeroPensado);
     }
 }
 numeroPensado();
